@@ -4,9 +4,33 @@ body
     background-color: #EFFBF9;
         align:center;
         margin: auto;
-        width: 1000px;
+        width: 800px;
+    background-image: url("image/background.jpg");
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: 300px;
+
+
 }
 h1
 {
     color: blue;
+    text-align: center ; font-size: 30px
+}
+h2
+{
+  text-align: center;
+  border: 2px blue solid;
+  border-radius: 20px;
+}
+ul
+{
+    box-shadow: 4px 4px 4px blue;
+}
+ul:hover
+{
+  border-left: 3px solid black;
+}
+a:active{
+  color: red;
 }
